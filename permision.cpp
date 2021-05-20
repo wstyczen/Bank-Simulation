@@ -4,7 +4,7 @@
 #include "permision.h"
 using std::string; using std::map;
 
-map<permision, unordered_set <responsibility>> possibleResponsibilities = {
+map<permision, set <responsibility>> possibleResponsibilities = {
 		{analitic,{fast_transfer,check_account,present_credit_offer}},
 		{bank_assistant,{retrieve_user_data,check_account,new_user_help}},
 		{cashier,{cash_withdraw,deposit_cash,check_account}},
