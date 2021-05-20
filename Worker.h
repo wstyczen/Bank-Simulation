@@ -2,7 +2,6 @@
 #define WORKER_H_
 
 #include "Human.h"
-#include <bits/stdc++.h>
 #include "permision.h"
 #include <set>
 
