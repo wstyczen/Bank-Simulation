@@ -106,7 +106,3 @@ void Worker::clearResponsiblities() {
 }
 
 } /* namespace std */
-
-//Worker::Worker(const Worker &other) {
-//
-//}
